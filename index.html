@@ -20,218 +20,239 @@
   </head>
   <body>
     <header>
-      <!--Navegación-->
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-12">
-            <nav class="navbar navbar-expand-lg bg-dark border-body" data-bs-theme="dark">
-              <div class="container-fluid">
-                <h1 class="navbar-brand">MasterD</h1>
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">acerca de </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Contacto</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
+      <div class="container-fluid bg-dark">
+        <nav class="navbar navbar-expand-lg bg-dark border-body" data-bs-theme="dark">
+          <div class="container-fluid">
+            <h1 class="navbar-brand">MasterD</h1>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">acerca de </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacto</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
+        </nav>
       </div>
     </header>
+    <!--Navegación-->
 
     <main>
-      <div id="carrusel">
-        <!--Carrusel-->
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div id="carouselExampleIndicators" class="carousel slide">
-                <div class="carousel-indicators">
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="0"
-                    class="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3"
-                  ></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./assets/images/carrusel1.jpg" class="d-block w-100" alt="..." />
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./assets/images/carrusel2.jpg" class="d-block w-100" alt="..." />
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./assets/images/carrusel3.jpg" class="d-block w-100" alt="..." />
-                  </div>
-                </div>
+      <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-10 my-3">
+            <!--Carousel-->
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
                 <button
-                  class="carousel-control-prev"
                   type="button"
                   data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide="prev"
-                >
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
                 <button
-                  class="carousel-control-next"
                   type="button"
                   data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide="next"
-                >
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
               </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./assets/images/carrusel1.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/carrusel2.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/carrusel3.jpg" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
         </div>
-      </div>
-
-      <h1>Presupuesto</h1>
-
-      <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-6">
-            <form>
-              <label class="form-label" for="nombre">Nombre:</label>
-              <input type="text" name="nombre" id="nombre" class="form-control" />
-              <div>Es necesario escribir el nombre</div>
+          <div class="col-lg-6 my-2">
+            <h1>Presupuesto</h1>
+            <form class="container mt-4">
+              <div class="mb-3">
+                <label class="form-label" for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" class="form-control" required />
+                <div class="form-text text-danger">Es necesario escribir el nombre</div>
+              </div>
 
-              <label class="form-label" for="apellido">Apellido:</label>
-              <input type="text" id="apellido" class="form-control" name="apellido" />
+              <div class="mb-3">
+                <label class="form-label" for="apellido">Apellido</label>
+                <input type="text" id="apellido" class="form-control" name="apellido" />
+              </div>
 
-              <label class="form-label" for="correo">Correo:</label>
-              <input type="email" id="correo" class="form-control" name="email" />
+              <div class="mb-3">
+                <label class="form-label" for="correo">Correo</label>
+                <input type="email" id="correo" class="form-control" name="email" />
+              </div>
 
-              <label class="form-label" for="telefono">Teléfono:</label>
-              <input type="tel" id="telefono" class="form-control" name="tel" />
+              <div class="mb-3">
+                <label class="form-label" for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" class="form-control" name="tel" />
+              </div>
 
-              <label class="form-label" for="base">Tipo de trabajo</label>
-              <select id="base" class="form-control" name="select">
-                <option>Elige una opción</option>
-                <option>HTML básico 1000€</option>
-                <option>Diseño avanzado 1400€</option>
-                <option>Panel de administración 2500€</option>
-              </select>
+              <div class="mb-3">
+                <label class="form-label" for="base">Tipo de trabajo</label>
+                <select id="base" class="form-select" name="select">
+                  <option selected>Elige una opción</option>
+                  <option>HTML básico 1000€</option>
+                  <option>Diseño avanzado 1400€</option>
+                  <option>Panel de administración 2500€</option>
+                </select>
+              </div>
 
-              <label class="form-label" for="plazo">Plazo en meses:</label>
-              <input type="number" min="0" id="plazo" class="form-control" />
+              <div class="mb-3">
+                <label class="form-label" for="plazo">Plazo en meses</label>
+                <input type="number" min="0" id="plazo" class="form-control" />
+              </div>
 
-              <input type="checkbox" id="galeria" class="form-control" />
-              <label class="form-label" for="galeria">Galería</label>
+              <div class="row">
+                <div class="col-6">
+                  <div class="form-check">
+                    <input type="checkbox" id="galeria" class="form-check-input" />
+                    <label class="form-check-label" for="galeria">Galería</label>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="form-check">
+                    <input type="checkbox" id="formulario" class="form-check-input" />
+                    <label class="form-check-label" for="formulario">Formulario de presupuesto</label>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="form-check">
+                    <input type="checkbox" id="ecom" class="form-check-input" />
+                    <label class="form-check-label" for="ecom">Tienda</label>
+                  </div>
+                </div>
 
-              <input type="checkbox" id="formulario" class="form-control" />
-              <label class="form-label" for="formulario">Formulario de presupuesto</label>
+                <div class="col-6">
+                  <div class="form-check">
+                    <input type="checkbox" id="redes" class="form-check-input" />
+                    <label class="form-check-label" for="redes">Redes sociales</label>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="form-check">
+                    <input type="checkbox" id="localiz" class="form-check-input" />
+                    <label class="form-check-label" for="localiz">Mapa localización interactivo</label>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="form-check mb-3">
+                    <input type="checkbox" id="soporteweb" class="form-check-input" />
+                    <label class="form-check-label" for="soporteweb">Soporte Web</label>
+                  </div>
+                </div>
 
-              <input type="checkbox" id="ecom" class="form-control" />
-              <label class="form-label" for="ecom">Tienda</label>
+                <div class="mb-3">
+                  <label class="form-label" for="total">Presupuesto estimado</label>
+                  <input type="text" id="total" class="form-control" />
+                </div>
 
-              <input type="checkbox" id="redes" class="form-control" />
-              <label class="form-label" for="redes">Redes sociales</label>
-
-              <input type="checkbox" id="localiz" class="form-control" />
-              <label class="form-label" for="localiz">Mapa localización interactivo</label>
-
-              <input type="checkbox" id="soporteweb" class="form-control" />
-              <label class="form-label" for="soporteweb">Soporte Web</label>
-
-              <label class="form-label" for="total">Presupuesto estimado:</label>
-              <input type="text" id="total" />
-
-              <input type="checkbox" id="privacidad" class="for" required />
-              <label>He leido la política de privacidad</label>
-
-              <button type="submit" class="btn-primary">Enviar datos</button>
+                <div class="form-check mb-3">
+                  <input type="checkbox" id="privacidad" class="form-check-input" required />
+                  <label class="form-check-label" for="privacidad"> He leído la política de privacidad </label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar datos</button>
             </form>
           </div>
-        </div>
-
-        <div class="row">
-          <!--Noticias-->
-          <div class="col-lg-6 col-md-12 mx-3 my-3">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-4">
-                  <div class="card" style="width: 18rem">
-                    <img src="./assets/images/noticia1.jpg" class="card-img-top" alt="..." />
-                    <div class="card-body">
-                      <h5 class="card-title">Redes sociales</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and make up the bulk of the card’s content.
-                      </p>
-                      <a href="#" class="btn btn-primary">Mas información</a>
-                    </div>
+          <div class="col-lg-6 my-2">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 my-2">
+                <div class="card" style="width: 18rem">
+                  <img src="./assets/images/noticia1.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make up the bulk of the card’s content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
                 </div>
-                <div class="col-lg-4">
-                  <div class="card" style="width: 18rem">
-                    <img src="./assets/images/noticia2.jpg" class="card-img-top" alt="..." />
-                    <div class="card-body">
-                      <h5 class="card-title">Soporte Web</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and make up the bulk of the card’s content.
-                      </p>
-                      <a href="#" class="btn btn-primary">Mas información</a>
-                    </div>
+              </div>
+              <div class="col-sm-12 col-md-6 my-2">
+                <div class="card" style="width: 18rem">
+                  <img src="./assets/images/noticia2.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make up the bulk of the card’s content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
                 </div>
-                <div class="col-lg-4">
-                  <div class="card" style="width: 18rem">
-                    <img src="./assets/images/noticia3.jpg" class="card-img-top" alt="..." />
-                    <div class="card-body">
-                      <h5 class="card-title">Diseño</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and make up the bulk of the card’s content.
-                      </p>
-                      <a href="#" class="btn btn-primary">Mas información</a>
-                    </div>
+              </div>
+              <div class="col-sm-12 col-md-6 my-2">
+                <div class="card" style="width: 18rem">
+                  <img src="./assets/images/noticia3.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make up the bulk of the card’s content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
                 </div>
-                <div class="col-lg-4">
-                  <div class="card" style="width: 18rem">
-                    <img src="./assets/images/noticia4.jpg" class="card-img-top" alt="..." />
-                    <div class="card-body">
-                      <h5 class="card-title">Tienda Online</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and make up the bulk of the card’s content.
-                      </p>
-                      <a href="#" class="btn btn-primary">Mas información</a>
-                    </div>
+              </div>
+              <div class="col-sm-12 col-md-6 my-2">
+                <div class="card" style="width: 18rem">
+                  <img src="./assets/images/noticia4.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make up the bulk of the card’s content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
                 </div>
               </div>
@@ -243,20 +264,22 @@
 
     <footer>
       <div class="container-fluid text-center bg-dark" data-bs-theme="dark">
-              <div class="container-fluid">>
-        <div class="row">
-          <div class="col-lg-6 col-md-12 text-light">
-            <h4>Footer Content</h4>
-            You can and column here to organize your footer content
-          </div>
-          <div class="col-lg-6 col-md-12 text-light">
-            <h4>Footer Content</h4>
-            <p><a href="Home">Home</a></p>
-            <p><a href="portafolio">Portafolio</a></p>
-            <p><a href="contacto">Contacto</a></p>
-          </div>
-          <div class="col-12 text-light">
-            <p>&copy; 2022 Copyright MasterD</p>
+        <div class="container-fluid">
+          >
+          <div class="row">
+            <div class="col-lg-6 col-md-12 text-light">
+              <h4>Footer Content</h4>
+              You can and column here to organize your footer content
+            </div>
+            <div class="col-lg-6 col-md-12 text-light">
+              <h4>Footer Content</h4>
+              <p><a href="Home" class="text-light fw-bold">Home</a></p>
+              <p><a href="portafolio" class="text-light fw-bold">Portafolio</a></p>
+              <p><a href="contacto" class="text-light fw-bold">Contacto</a></p>
+            </div>
+            <div class="col-12 text-light">
+              <p>&copy; 2022 Copyright MasterD</p>
+            </div>
           </div>
         </div>
       </div>
